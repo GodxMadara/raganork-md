@@ -76,9 +76,7 @@
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"https://graph.org/file/79ba5b7cfd08a4d0307a7.jpg
-Hey {sender}, I'm alive
-Uptime: {uptime}"
+            "value":" https://graph.org/file/79ba5b7cfd08a4d0307a7.jpg\nHey {sender}, I'm alive\nUptime: {uptime}"
         },
        "SESSION": {
             "description": "Your MD session",
