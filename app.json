@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"."
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"𝓝𝓮𝔃𝓾𝓴𝓸;☠⃝𝓣𝓱𝓮☠𝓛𝓸𝓼𝓽☠𝓤𝓬𝓱𝓲𝓱𝓪"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,17 +51,17 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"𝓝𝓮𝔃𝓾𝓴𝓸"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
+            "value":"𝓝𝓮𝔃𝓾𝓴𝓸;☠⃝𝓣𝓱𝓮☠𝓛𝓸𝓼𝓽☠𝓤𝓬𝓱𝓲𝓱𝓪;917903576495;https://graph.org/file/1e77ff919707d8e964f37.jpg"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"𝓝𝓮𝔃𝓾𝓴𝓸;☠⃝𝓣𝓱𝓮☠𝓛𝓸𝓼𝓽☠𝓤𝓬𝓱𝓲𝓱𝓪;https://graph.org/file/79ba5b7cfd08a4d0307a7.jpg"
         },
         "MODE": {
             "description": "Private or public",
@@ -71,12 +71,14 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"917903576495"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "value":"https://graph.org/file/79ba5b7cfd08a4d0307a7.jpg
+Hey {sender}, I'm alive
+Uptime: {uptime}"
         },
        "SESSION": {
             "description": "Your MD session",
